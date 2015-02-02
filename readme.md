@@ -59,5 +59,4 @@ It would also be interesting to explore a more interactive data visualization ra
 
 ## Contact
 For questions, comments, suggestions, or errata, feel free to reach out to me at:
-> Eric Li
-> eyli@princeton.edu
+> Eric Li - eyli@princeton.edu
