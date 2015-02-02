@@ -50,7 +50,7 @@ To do this, we implement a thresholding heuristic. Specifically, we examine the 
 - **Ranking:** Each edge weight represents a student's ranking relative to the coach. This ranking could be determined by the coach or by the student's abilities to do problems without help. One possible benefit of this, combined with thresholding, is the following. Perhaps there is a new update to the site that greatly enhances self learning and creating exercises. It is sensible that we might want those that are struggling to comprehend the material to receive access to this site first.
 
 ### Exact Infection
-This is a very slight modification of **limited infection** where we only infect if we can find an infection scheme that fits both the given number of clients to infect as well as the threshold. Otherwise, no infection occurs
+This is a very slight modification of **limited infection** where we only infect if we can find an infection scheme that fits both the given number of clients to infect as well as the threshold. Otherwise, no infection occurs.
 
 ## Extensions
 One idea that I would like to explore is implementing an exact infection using `A*` or a better heuristic. Another approach could be specifying a set number and threshold, but not specifying the initial user. The program would then systematically search through every "class" until it finds one that satisfies the conditions **and** infects the entire connected component.
